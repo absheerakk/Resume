@@ -1,0 +1,265 @@
+@font-face {
+    src: url(fonts/Poppins-Bold.ttf);
+    font-family: Poppins-bold;
+    
+}
+@font-face {
+    src: url(fonts/Poppins-Regular.ttf);
+    font-family: Poppins-regular;
+    
+}
+@font-face {
+    src: url(fonts/Lato-Bold.ttf);
+    font-family: Lato-bold;
+    
+}
+#profile-pic{
+    border-radius: 10px;
+}
+*{
+    box-sizing: border-box;
+    max-width: 100rlh;
+    font-family: Poppins-regular;
+    *::selection{
+        color:lavender;
+        background-color: hsla(51, 15%, 35%, 0.918);
+    }  
+}
+#profile-pic:hover{
+    animation-name: glow2;
+    animation-duration: 2s;
+}
+body{
+    background-color: #e3dbcc;
+}
+header{
+    background-color: #74655bf8;
+    height: 150px;
+    width: 100rlh;
+    margin-left:-10px;
+    margin-top: -20px;
+    float:left;
+    
+}
+header h1{
+    position: relative;
+    margin-left:360px;
+    margin-top: 65px;
+    font-family: Poppins-bold;
+    font-size: 4em;
+    text-transform: uppercase;
+    color: #000000c2;
+}
+img{
+    height: auto;
+    width: 200px;
+
+}
+
+.title{
+    text-transform: uppercase;
+    text-align: left;
+    margin-left: 25px;
+       
+    color: #292d2d;
+    font-weight: 600;
+    padding: 5px;
+    display: block;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid;
+    font-family: Poppins-bold ;
+}
+
+.icon{
+    padding: 5px;
+    background-color: #dfd7d3;
+    border-radius: 3px;
+    color: #292d2d;
+    
+}
+.icon:hover{
+    animation-name: glow;
+    animation-duration: 2s;
+}
+
+.ContactInfo ul li{
+        padding: 7px;
+        margin-left: -20px;
+        text-align: left;
+        list-style: none;
+        font-family: Poppins-regular;
+        font-weight: bold;
+        color: #292d2d;
+        
+}
+.text{
+    margin-left: 3px;
+    
+}
+.text:hover{
+    font-size: 1.05em;
+    animation-name: glow;
+    animation-duration: 2s;
+}
+
+#back a{
+    text-decoration: none;
+}.icon a{
+    text-decoration: none;
+}
+.ContactInfo.Skills ul li{
+    padding: 7px;
+    margin-left: 8px;
+    text-align: left;
+    list-style: disc;
+}
+.ContactInfo.Language .percent{
+    position:relative;
+    width: 100%;
+    height: 6px;
+    background: rgb(177, 173, 173);
+    display: block;
+    border-radius: 3px;
+    margin-top: 5px;
+    padding-right: 4px;
+}
+.ContactInfo.Language .percent div{
+    position:absolute;
+    top:0;
+    left:0;
+    height: 100%;
+    background:#4b3727;
+    border-radius: 3px;
+}
+.ContactInfo.Language .percent:hover{
+    block-size: 0.5em;
+    animation-name: glow2;
+    animation-duration: 2s;
+}
+.aside{
+    border: 2px solid #292d2d;
+    text-align:center;
+    display: inline-block;
+    margin:20px;
+    margin-top: -90px;
+    padding:0px; 
+    padding-top: 20px;
+    float: left;
+    
+}
+#profession{
+    font-family: Poppins-regular;
+        letter-spacing: 7px;
+        text-transform: uppercase;
+        text-align:left;
+        position: relative;
+        font-weight: 100;
+        margin-bottom: 30px;
+}
+
+.title1{
+    overflow: hidden;
+    text-transform: uppercase;
+    text-align: left;
+    margin-left: 25px;
+    
+    font-size: 1.5em;
+    color: #292d2d;
+    font-weight: 900;
+    padding: 5px;
+    display: block;
+    letter-spacing: 1px;
+    border-bottom: 1px solid rgb(201, 196, 196);
+    font-family: Poppins-bold ;
+
+}
+
+h3{
+    margin:10px;
+    color: #292d2d;
+}
+
+.about ul li{
+    list-style: none;
+}
+
+.about .box{
+    display: flex;
+    flex-direction:row;
+    margin:0px 0;
+    
+}
+.about .box .year{
+    min-width: 150px;
+}
+.about .box .year h5{
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: large;
+    color: #292d2d;
+}
+
+.about .box .text h4{
+    text-transform: uppercase;
+    color: #292d2d;
+    font-weight: bolder;
+    font-size: large;
+
+}
+
+.pskills .box{
+    position: relative;
+    width: 50%;
+    display: grid;
+    grid-template-columns: 200px 5fr;
+    justify-content: center;
+    align-content: center;
+
+}
+.pskills .box h4{
+    margin-top: 3%;
+    text-transform: uppercase;
+    color: #292d2d;
+    font-weight:bolder;
+    letter-spacing: 2px;;
+    align-items: flex-end;
+
+}
+.pskills .box .percent{
+    position: relative;
+    width: 100%;
+    height: 10px;
+    background: #928b88;
+    display: block;
+    border-radius: 3px;
+    margin-top:15px;
+    padding-right: 4px;
+    border-radius: 3px;
+
+}
+.pskills .box .percent div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: #4b3727;
+    padding: 5px;
+    border-radius: 3px;
+}
+footer{
+    text-align: center;
+    size: smaller;
+}
+@media screen and(max-width:600px)
+{
+    aside,section,article{
+        width:100%;
+    }
+}
+@keyframes glow{
+    50%{box-shadow:0px 0px 50px rgb(160, 71, 160)}
+}
+@keyframes glow2{
+    50%{box-shadow:0px 0px 50px rgb(105, 82, 61)}
+}
